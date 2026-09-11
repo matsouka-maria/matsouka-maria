@@ -41,17 +41,6 @@ mindset:   consistent > perfect 🌱
 
 <br/>
 
-## `~/github-stats`
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=matsouka-maria&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=8B5CF6&text_color=c9d1d9" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matsouka-maria&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=c9d1d9" />
-
-</div>
-
-<br/>
-
 ## `~/links`
 
 <div align="center">
