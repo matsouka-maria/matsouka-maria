@@ -1,0 +1,50 @@
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0c29"/>
+      <stop offset="50%" stop-color="#302b63"/>
+      <stop offset="100%" stop-color="#24243e"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="300" rx="18" fill="url(#bg)"/>
+
+  <!-- terminal top bar -->
+  <rect x="0" y="0" width="900" height="40" rx="18" fill="#161326"/>
+  <rect x="0" y="22" width="900" height="18" fill="#161326"/>
+  <circle cx="26" cy="20" r="7" fill="#ff5f56"/>
+  <circle cx="50" cy="20" r="7" fill="#ffbd2e"/>
+  <circle cx="74" cy="20" r="7" fill="#27c93f"/>
+  <text x="450" y="26" font-family="Fira Code, monospace" font-size="13" fill="#8b8b9e" text-anchor="middle">maria@duth: ~/portfolio</text>
+
+  <!-- dotted grid texture -->
+  <g opacity="0.15">
+    <circle cx="60" cy="90" r="1.5" fill="#A78BFA"/>
+    <circle cx="120" cy="130" r="1.5" fill="#A78BFA"/>
+    <circle cx="820" cy="90" r="1.5" fill="#A78BFA"/>
+    <circle cx="780" cy="230" r="1.5" fill="#A78BFA"/>
+    <circle cx="90" cy="240" r="1.5" fill="#A78BFA"/>
+    <circle cx="850" cy="150" r="1.5" fill="#A78BFA"/>
+  </g>
+
+  <text x="60" y="150" font-family="Fira Code, monospace" font-size="16" fill="#6b6b8a">$ whoami</text>
+
+  <text x="60" y="205" font-family="'Courier New', monospace" font-size="56" font-weight="700" fill="url(#glow)" filter="url(#blur)">MARIA MATSOUKA</text>
+
+  <text x="60" y="245" font-family="Fira Code, monospace" font-size="18" fill="#c9d1d9">
+    <tspan fill="#8B5CF6">&gt;</tspan> CS Student @ ΔΠΘ &#160;&#160;<tspan fill="#8B5CF6">&gt;</tspan> Targeting Google STEP &amp; CERN openlab
+  </text>
+
+  <text x="60" y="272" font-family="Fira Code, monospace" font-size="14" fill="#6b6b8a">_</text>
+</svg>
