@@ -21,7 +21,7 @@
 ```yaml
 name:      Maria Matsouka
 role:      First-Year CS Student @ Democritus University of Thrace (ΔΠΘ)
-based_in:  Kavala, Greece 🇬🇷
+based_in:  Greece 🇬🇷
 learning:  CS50, CS50P, CS50W, CS50 SQL (Harvard) · Code in Place (Stanford)
 targeting: Google STEP Internship · CERN openlab Summer Student — Summer 2027
 freelance: WordPress / WooCommerce web support
